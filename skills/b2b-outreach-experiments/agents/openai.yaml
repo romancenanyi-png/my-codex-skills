@@ -1,0 +1,6 @@
+interface:
+  display_name: "B2B 外联实验"
+  short_description: "用小批量、决策人验证、单变量测试和停损规则迭代开发邮件"
+  default_prompt: "Use $b2b-outreach-experiments to run a small evidence-based outbound pilot."
+policy:
+  allow_implicit_invocation: true

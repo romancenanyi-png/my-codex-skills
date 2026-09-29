@@ -1,0 +1,6 @@
+interface:
+  display_name: "B2B SEO 与 GEO"
+  short_description: "用买家意图、页面归属、真实证据和数据反馈管理 SEO 与 GEO"
+  default_prompt: "Use $b2b-seo-geo-ops to build a defensible B2B SEO and GEO plan."
+policy:
+  allow_implicit_invocation: true

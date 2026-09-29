@@ -1,0 +1,6 @@
+interface:
+  display_name: "TikTok B2B 买家发现"
+  short_description: "把 TikTok 的补货采购信号验证成有官网和公开联系人的真实买家"
+  default_prompt: "Use $tiktok-b2b-buyer-discovery to turn TikTok signals into verified B2B buyer candidates."
+policy:
+  allow_implicit_invocation: true

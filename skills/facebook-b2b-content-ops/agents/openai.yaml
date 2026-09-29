@@ -1,0 +1,6 @@
+interface:
+  display_name: "Facebook B2B 内容运营"
+  short_description: "把真实工厂动作、买家风险和业务结果转成可复盘的 Facebook 内容"
+  default_prompt: "Use $facebook-b2b-content-ops to plan evidence-led Facebook content for B2B buyers."
+policy:
+  allow_implicit_invocation: true

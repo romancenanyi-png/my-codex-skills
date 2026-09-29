@@ -1,0 +1,6 @@
+interface:
+  display_name: "WordPress 性能与回归"
+  short_description: "用多页面中位数、渐进优化和回滚门槛保护 WordPress 转化链路"
+  default_prompt: "Use $wordpress-performance-qa to optimize a WordPress site without breaking conversion paths."
+policy:
+  allow_implicit_invocation: true

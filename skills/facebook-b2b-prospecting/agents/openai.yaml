@@ -1,0 +1,6 @@
+interface:
+  display_name: "Facebook B2B 主动开发"
+  short_description: "从公开 Facebook 页面发现、核验、评分并去重真实 B2B 买家"
+  default_prompt: "Use $facebook-b2b-prospecting to build a verified Facebook prospect list."
+policy:
+  allow_implicit_invocation: true

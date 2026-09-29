@@ -1,0 +1,6 @@
+interface:
+  display_name: "AI 视频提示词工作流"
+  short_description: "用角色产品一致性、因果连续性和分镜验证制作 AI 短视频提示词"
+  default_prompt: "Use $ai-video-prompt-workflow to design consistent AI-video prompts and shot plans."
+policy:
+  allow_implicit_invocation: true

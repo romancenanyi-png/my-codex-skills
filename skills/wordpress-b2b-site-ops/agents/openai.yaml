@@ -1,0 +1,6 @@
+interface:
+  display_name: "WordPress B2B 建站运营"
+  short_description: "规划和交付面向询盘的 WordPress B2B 网站完整运营流程"
+  default_prompt: "Use $wordpress-b2b-site-ops to plan and QA a conversion-focused B2B website."
+policy:
+  allow_implicit_invocation: true

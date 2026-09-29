@@ -1,0 +1,6 @@
+interface:
+  display_name: "B2B 素材审片与脚本"
+  short_description: "完整审片、标注证据边界并生成可直接执行的短视频剪辑脚本"
+  default_prompt: "Use $b2b-video-material-to-script to audit raw footage and build a truthful B2B edit script."
+policy:
+  allow_implicit_invocation: true

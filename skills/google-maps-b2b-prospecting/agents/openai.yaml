@@ -1,0 +1,6 @@
+interface:
+  display_name: "Google Maps B2B 开发"
+  short_description: "用窄关键词、官方公开证据、联系人验证和评分筛选地图买家"
+  default_prompt: "Use $google-maps-b2b-prospecting to research a fresh buyer shortlist from Google Maps."
+policy:
+  allow_implicit_invocation: true

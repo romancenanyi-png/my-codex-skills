@@ -1,0 +1,6 @@
+interface:
+  display_name: "HyperFrames B2B 视频制作"
+  short_description: "按确定性时间轴、逐帧检查和编码验证制作可复现的 B2B 视频"
+  default_prompt: "Use $hyperframes-b2b-video-production to build and verify a HyperFrames B2B video."
+policy:
+  allow_implicit_invocation: true
