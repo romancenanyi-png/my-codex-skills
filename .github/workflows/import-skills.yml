@@ -1,0 +1,28 @@
+name: Import skills bundle
+on:
+  push:
+    paths:
+      - skills-bundle.zip
+
+permissions:
+  contents: write
+
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Expand repository
+        shell: bash
+        run: |
+          unzip -q -o skills-bundle.zip
+          rm -f skills-bundle.zip
+          rm -f .github/workflows/import-skills.yml
+      - name: Commit imported skills
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "Add reusable B2B growth Codex skills"
+          git push
