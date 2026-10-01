@@ -23,7 +23,7 @@
 
 - 独立完成并持续运营 **2 个外贸网站**。
 - 通过建站与运营获得过 **单月约 40 个询盘**。
-- 将建站、SEO/GEO、Facebook、Google Maps、TikTok、询盘处理和视频生产经验沉淀为 **13 个可安装的 Codex Skills**。
+- 将建站、SEO/GEO、Facebook、Google Maps、TikTok、询盘处理和视频生产经验沉淀为 **14 个可安装的 Codex Skills**，并整理了 1 套小白建站教程。
 - 能使用剪映完成常规视频剪辑，也能通过 HyperFrames 与 Codex 制作可编程、可重复渲染的视频。
 - 正在把 AI 应用于外贸 SOP、客户开发、询盘跟进、报价辅助、文件管理和日常办公流程。
 
@@ -59,6 +59,7 @@ I am Matcen, an AI-enabled foreign trade operations and B2B growth practitioner 
 
 | 分类 | 技能 | 解决的问题 |
 | --- | --- | --- |
+| 网站架构 | `b2b-website-architecture` | 规划买家路径、页面层级、URL、导航、内链和询盘入口 |
 | 建站 | `wordpress-b2b-site-ops` | 规划并交付以询盘为目标的 WordPress B2B 网站 |
 | SEO/GEO | `b2b-seo-geo-ops` | 关键词研究、页面归属、内容、内链、结构化数据与复盘 |
 | 建站性能 | `wordpress-performance-qa` | 在不破坏表单、统计和页面功能的前提下优化性能 |
@@ -74,6 +75,14 @@ I am Matcen, an AI-enabled foreign trade operations and B2B growth practitioner 
 | AI 视频 | `ai-video-prompt-workflow` | 用角色/产品一致性与因果连续性设计分镜提示词 |
 
 更详细的分类、边界和组合方式见 [docs/CATALOG.md](docs/CATALOG.md)。来源覆盖和脱敏原则见 [docs/SOURCE-COVERAGE.md](docs/SOURCE-COVERAGE.md) 与 [docs/SECURITY-AND-PRIVACY.md](docs/SECURITY-AND-PRIVACY.md)。
+
+## 小白建站教程
+
+如果你想从域名、Codex、GitHub、Vercel 开始，建立网站并继续做 SEO / GEO，请按顺序阅读：
+
+- [小白外贸独立站：从建站到 SEO / GEO 运营](courses/b2b-website-seo-geo-starter/README.md)
+
+教程与技能分开存放：`courses/` 用于学习，`skills/` 用于让 Codex 执行具体工作流。
 
 ## 安装
 
