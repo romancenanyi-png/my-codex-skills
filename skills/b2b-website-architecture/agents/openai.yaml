@@ -1,0 +1,6 @@
+interface:
+  display_name: "B2B 网站架构"
+  short_description: "规划页面层级、URL、导航、内链与询盘转化路径"
+  default_prompt: "Use $b2b-website-architecture to plan a focused B2B website structure and buyer journey."
+policy:
+  allow_implicit_invocation: true
