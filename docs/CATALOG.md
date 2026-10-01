@@ -2,11 +2,14 @@
 
 ## 一、建站、SEO 与 GEO
 
+- `b2b-website-architecture`：在写页面前规划买家路径、页面层级、URL、导航、内链、转化入口和迁移关系。
 - `wordpress-b2b-site-ops`：站点目标、信息架构、页面模块、表单、响应式检查、上线与回滚。
 - `b2b-seo-geo-ops`：窄意图关键词、页面归属、内容更新、内链、可见内容与 Schema 一致、14/28/56/90 天观察。
 - `wordpress-performance-qa`：图片、缓存、资源卸载、冷/热缓存测试、多页面多宽度回归。
 
-推荐顺序：先建站与转化路径，再做 SEO/GEO，最后在完整基线下优化性能。
+推荐顺序：先用 `b2b-website-architecture` 做结构，再实施页面与转化路径，然后做 SEO/GEO，最后在完整基线下优化性能。
+
+零基础学习路径见 [`courses/b2b-website-seo-geo-starter`](../courses/b2b-website-seo-geo-starter/README.md)。教程解释为什么和如何做；技能提供给 Codex 执行。
 
 ## 二、询盘与客户沟通
 
