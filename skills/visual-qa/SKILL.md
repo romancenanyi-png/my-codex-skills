@@ -16,10 +16,84 @@ Use this skill to inspect visual output from websites, apps, screenshots, mockup
 
 Use this skill when the user asks to:
 
-- Review a website, landing paeK�ܙY[���܈RH[\[Y[�][ۋ��H��\\�HH�[�\�YY�HY�Z[��H\�Yۈ\�X�[ۈ܈�Y�\�[��K��H�X���\�ۜ�]�H�Z]�[܈ۈ\���X�][�[ؚ[K��H�[�^[�]�Y���X�\�ݙ\�����\[��ݙ\�\[��[[Y[������[��X�[��܈[��XYX�H^��H�X���\�X[Y\�\��K�H��Z[�[��K��[��X�[]K�۝�\�[�X��\��X�[]H�\�X�˂�H�[Y]H�[�\�]Y[XY�\�܈������X[�\���Y�ܙHX�\�[�˂�����\]Z\�Y[�]�\���܈ۛHHZ\��[��\��[�X[΂��HT��ܙY[���\�Yۈ�[K܈��[\��]K��H[�[�Y]�X�H�^�\�܈��XZ��[�˂�H\��]]YY[��H[��[X\�H�۝�\��[ۈ��[��H��[��ۜ��Z[��Y��\�X[ۙHX]\�˂�����ܚٛ��K�
-���\\�H܈[��X�
-���H\�H�����\�]]�X][ۈ܈�ܙY[�����[�]�Z[X�K��H[��X�]\���X�][�[ؚ[H�Y˂�H�\\�HX�ݙK]KY��[�[\ܝ[��۝�\��[ۈ�X�[ۜ˂����
-���X��^[�][�Yܚ]J���H����܈����[�ܚY�ݙ\�����\[��[�^X�Y�ܛ��\����]�Y[XY�\�Z\�[YۙY�\��[�[��ۜ�\�[��X�[�˂�H�\�Y�H]�X��HXY\��[�[����ۜ�[��ܛ\����؜��\�H�۝[����ˈ
-���X��Y\�\��H[��۝�\��[ۈ�\�]J���H�ۙ�\�HH�[X\�H�H\��\�X[H�Z[�[���H�ۙ�\�HHXY[�K��ً�[�Y�]�[��H�ܛHH�X\�]��H�Y���\][���\�[��X\��X�[ۈܙ\�[���X�۝�\��\ܝ[����K����
-���X��X��\��X�[]H�\�X�ʊ��H�۝�\�\X\���XYX�K��H���\��]\�\�H�\�X�K��H[�\�X�]�H�۝�������X��X�K��H^\���[X�YY[�[XY�\�[�\��[�[�[ۘ[HX�ܘ]]�K��H[\ܝ[�[XY�\�]�H[]^^X�][ۜ���[Y[�Y���K�
-���X���\�ۜ�]�H�Z]�[܊���H[ؚ[H�]�Y�][ۈ�ܚ�˂�H�\���X���ܜ�X�K��H\�ܘ\H�[XZ[���XYX�K��H�ܛ\��[XZ[�\�X�Hۈ�\�����ܙY[�˂�����]]�ܛX]���]\��H�[ܚ]^�YPH�\ܝ���X\���ۂ���\�X[PH�\ܝ�����[[X\�B�Hݙ\�[�]\Έ\����YY��^\������Y�H�[X\�H�\�Έ�������ܚ]X�[\��Y\\��YH]�Y[��H[\X��^�KK_KK_KK_KK_����Y�R[\X�[\�ݙ[Y[�[\�ݙ[Y[��H]X]\���Y��\�Y�[��H�KK_KK_KK_�����\�ۜ�]�H��\H\�����HX�]��H[ؚ[N�����X��\��X�[]H��\H�۝�\���H���\΂�H�[X[�X�΂�����\�X��[Y[�][ۂ����YY��^�\����K]\�Y�\��[��\����]X[]H�\����H�ۘܙ]K�����^H8�'[\�ݙH�X�[���'H�]�]�[�[���H�X�[ۈ[�H^X��\�X[�؛[K��Y�\�X�[ۘX�H�^\�ݙ\��[�\�[\�YۈY�X�K�
+- Review a website, landing page, screenshot, or UI implementation.
+- Compare a rendered page against a design direction or reference.
+- Check responsive behavior on desktop, tablet, and mobile.
+- Find layout bugs such as overflow, clipping, overlapping elements, broken spacing, or unreadable text.
+- Check visual hierarchy, CTA prominence, scannability, contrast, and accessibility basics.
+- Validate generated images or OG/social cards before publishing.
+
+## Required inputs
+
+Ask for only the missing essentials:
+
+- URL, screenshot, design file, or local app route.
+- Intended device sizes or breakpoints.
+- Target audience and primary conversion goal.
+- Brand constraints if visual tone matters.
+
+## Workflow
+
+1. **Capture or inspect**
+   - Use browser automation or screenshots when available.
+   - Inspect at desktop, tablet, and mobile widths.
+   - Capture above-the-fold and important conversion sections.
+
+2. **Check layout integrity**
+   - Look for broken grids, overflow, clipping, unexpected scrollbars, stretched images, misaligned cards, and inconsistent spacing.
+   - Verify that sticky headers, modals, dropdowns, and forms do not obscure content.
+
+3. **Check hierarchy and conversion clarity**
+   - Confirm the primary CTA is visually dominant.
+   - Confirm the headline, proof, benefits, and CTA form a clear path.
+   - Flag competing CTAs, unclear section order, and low-contrast supporting copy.
+
+4. **Check accessibility basics**
+   - Contrast appears readable.
+   - Focus states are visible.
+   - Interactive controls look clickable.
+   - Text is not embedded in images unless intentionally decorative.
+   - Important images have alt-text expectations documented.
+
+5. **Check responsive behavior**
+   - Mobile navigation works.
+   - Cards stack correctly.
+   - Typography remains readable.
+   - Forms remain usable on narrow screens.
+
+## Output format
+
+Return a prioritized QA report:
+
+```markdown
+# Visual QA Report
+
+## Summary
+- Overall status: Pass / Needs fixes / Blocked
+- Primary risk: ...
+
+## Critical Issues
+| Issue | Evidence | Impact | Fix |
+|---|---|---|---|
+
+## High-Impact Improvements
+| Improvement | Why it matters | Suggested change |
+|---|---|---|
+
+## Responsive Notes
+- Desktop:
+- Tablet:
+- Mobile:
+
+## Accessibility Notes
+- Contrast:
+- Focus:
+- Semantics:
+
+## Ship Recommendation
+Proceed / Fix first / Re-test after changes
+```
+
+## Quality bar
+
+Be concrete. Do not say “improve spacing” without pointing to the section and the exact visual problem. Prefer actionable fixes over general design advice.
